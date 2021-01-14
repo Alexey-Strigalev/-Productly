@@ -1,0 +1,22 @@
+extends ./../layouts/main.pug
+
+block variables
+    - const title = "Productly";
+
+block content
+    header.header
+        .container
+            include ./../sections/navigation.pug
+            include ./../sections/header.pug
+
+    main
+        include ./../sections/design-tools.pug
+        include ./../sections/professionals.pug
+        include ./../sections/managers.pug
+        include ./../sections/marketers.pug
+        include ./../sections/section-team.pug
+        include ./../sections/marketing-strategies.pug
+    
+    footer.footer
+        include ./../sections/footer.pug
+    

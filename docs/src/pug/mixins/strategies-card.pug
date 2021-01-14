@@ -1,0 +1,8 @@
+mixin strategies-card(img, title, link="#!")
+    .strategies-card
+        .strategies-card-img
+            img(src="./img/" + img, alt= title )
+        .strategies-card-info
+            block
+        a(href= link ).strategies-card-text 
+            h4 #{title}

@@ -1,0 +1,38 @@
+.section-managers {
+    margin-bottom: 105px;
+}
+
+.managers-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.managers-content {
+    max-width: 490px;
+    margin-left: 100px;
+}
+
+.managers-list-item + .managers-list-item {
+    margin-top: 30px;
+}
+
+.managers-list-item {
+    position: relative;
+    padding-left: 65px;
+    padding-right: 35px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(../img/managers-list-img.svg);
+    }
+}

@@ -1,0 +1,50 @@
+.nav-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 15px 0 17px;
+}
+
+.logo {
+    transition: 0.3s linear;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.header__nav {
+    margin-left: auto;
+}
+
+.header__nav-list {
+    display: flex;
+    margin-right: 50px;
+}
+
+.header__nav-item {
+
+    a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
+.user-nav{
+    margin-right: 15px;
+}
+
+.user-nav-buttons a {
+    &:not(:first-child) {
+        margin-left: 15px;
+    }
+}

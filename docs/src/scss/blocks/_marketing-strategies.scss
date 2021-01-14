@@ -1,0 +1,90 @@
+.marketing-strategies {
+    margin-bottom: 120px;
+}
+
+.marketing-strategies-row {
+    h2 {
+        margin-bottom: 10px;
+        font-size: 34px;
+        line-height: 51px;
+    }
+
+    p {
+        margin-bottom: 55px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #544837;
+    }
+}
+
+.strategies-card-row {
+    margin: 0 -20px;
+}
+
+.strategies-card {
+    margin-bottom: 45px;
+    padding: 0 20px;
+}
+
+.strategies-card-img {
+    width: 348px;
+    height: 185px;
+    margin-bottom: 25px;
+    border-radius: 8px 8px 0px 0px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.strategies-card-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #544837;
+
+    p {
+        margin-bottom: 12px;
+    }
+
+    a {
+        font-weight: 700;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.strategies-card-text {
+    width: 295px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    transition: 0.3s linear;
+
+    &:hover {
+        color: #FF9900;
+    }
+}
+
+.slick-dots {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    li + li {
+        margin-left: 10px;
+    }
+
+    button {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        font-size: 0;
+        background-color: #efefef;
+        padding: 0;
+    }
+}
+
+.slick-active button {
+    background-color: #ff9900;
+}

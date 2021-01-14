@@ -1,0 +1,61 @@
+.section-professionals {
+    margin-bottom: 100px;
+}
+
+.professianals-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.professianals-content {
+    max-width: 490px;
+    margin-right: 104px;
+}
+
+.professianals-content-info {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+
+.professianals-content-title {
+    margin-bottom: 22px;
+}
+
+.professianals-content-desc {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+
+    p + p {
+        margin-top: 15px;
+    }
+}
+
+.professianals-content-items {
+
+    h4 {
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #544837;
+    }
+
+    p + p {
+        margin-top: 15px;
+    }
+}
+
+.professianals-content-items + .professianals-content-items {
+    margin-top: 25px;
+}
